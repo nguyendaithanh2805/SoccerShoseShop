@@ -1,0 +1,21 @@
+﻿@model IEnumerable<SoccerShoesShop.Models.Category>
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var category in Model)
+        {
+            <tr>
+                <td>@category.CategoryId</td>
+                <td>@category.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

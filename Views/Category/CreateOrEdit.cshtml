@@ -1,0 +1,9 @@
+﻿@model SoccerShoesShop.Models.Category
+<form asp-action="@(Model.CategoryId == 0 ? "Create" : "Edit")" method="POST">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
