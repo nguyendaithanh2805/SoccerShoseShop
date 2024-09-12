@@ -2,11 +2,19 @@
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
+<script>
+    function updateCategory(categoryId) {
+        const url = `/Admin/Category/Edit/${categoryId}`;
+        window.location.href = url;
+    }
+</script>
+
 <table class="table">
     <thead>
         <tr>
             <th scope="col">ID</th>
             <th scope="col">Name</th>
+            <th scope="col">Action</th>
         </tr>
     </thead>
     <tbody>
@@ -15,7 +23,18 @@
             <tr>
                 <td>@category.CategoryId</td>
                 <td>@category.Name</td>
+                <td>
+                    <a class="btn btn-primary" onclick="updateCategory(@category.CategoryId)">Update</a>
+                    <a class="btn btn-danger" asp-controller="Category" asp-action="Delete" asp-route-id="@category.CategoryId">Delete</a>
+                </td>
             </tr>
         }
     </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">
+                <a class="btn btn-success" asp-controller="Category" asp-action="Create">Add a new Category</a>
+            </td>
+        </tr>
+    </tfoot>
 </table>

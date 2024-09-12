@@ -1,6 +1,12 @@
 ﻿@model SoccerShoesShop.Models.Category
-<form asp-action="@(Model.CategoryId == 0 ? "Create" : "Edit")" method="POST">
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<form asp-controller="Category" asp-action="@(Model.CategoryId == 0 ? "Create" : "Edit")" method="POST">
     <div class="form-group">
+        <label asp-for="CategoryId">ID</label>
+        <input asp-for="CategoryId" class="form-control" readonly/>
+
         <label asp-for="Name"></label>
         <input asp-for="Name" class="form-control" />
     </div>

@@ -4,7 +4,7 @@ using SoccerShoesShop.Services;
 
 namespace SoccerShoesShop.Controllers.Admin
 {
-    [Route("Admin/[Controller]/[Action]")]
+    [Route("Admin/[controller]/[action]/{id?}")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -48,7 +48,8 @@ namespace SoccerShoesShop.Controllers.Admin
         public async Task<IActionResult> Edit(int id)
         {
             var category = await _categoryService.getCategoryByIdAsync(id);
-            if (category == null) return View("Error");
+            if (category == null)
+                return View("Error");
             return View("CreateOrEdit", category);
         }
 
@@ -56,7 +57,7 @@ namespace SoccerShoesShop.Controllers.Admin
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Category category)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 await _categoryService.UpdateCategoryAsync(category);
                 return RedirectToAction(nameof(Index));

@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\User\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Update="wwwroot\lib\jquery\dist\jquery.min.js">
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
