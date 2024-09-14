@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SoccerShoesShop.Data;
+using SoccerShoesShop.Models;
 using SoccerShoesShop.Repositories;
 using SoccerShoesShop.Services;
 
@@ -13,6 +15,7 @@ builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IPasswordHasher<Account>, PasswordHasher<Account>>();
 //Configure Identity and cookie-based authentication for login and session management.
 builder.Services.AddAuthentication("CookieAuth")
     .AddCookie("CookieAuth", config =>
