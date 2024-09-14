@@ -1,7 +1,16 @@
 ﻿@model SoccerShoesShop.Models.Account
 @{
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = null;
 }
+@Html.Partial("~/Views/Shared/Partial/_Head.cshtml");
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
 <div class="login-box">
     <div class="login-logo">
         <a href="../../index2.html"><b>Admin</b>LTE</a>
