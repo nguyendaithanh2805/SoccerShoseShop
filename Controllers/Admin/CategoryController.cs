@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SoccerShoesShop.Models;
 using SoccerShoesShop.Services;
 
 namespace SoccerShoesShop.Controllers.Admin
 {
     [Route("Admin/[controller]/[action]/{id?}")]
+    [Authorize(Policy = "AdminOnly")]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
