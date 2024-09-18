@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using SoccerShoesShop.Areas.Admin.Models;
 using SoccerShoesShop.Models;
 
 namespace SoccerShoesShop.Data;

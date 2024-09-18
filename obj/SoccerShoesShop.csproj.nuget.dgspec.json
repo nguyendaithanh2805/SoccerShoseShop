@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\ASP.NET MVC core\\SoccerShoesShop\\SoccerShoesShop.csproj": {}
+    "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\ASP.NET MVC core\\SoccerShoesShop\\SoccerShoesShop.csproj": {
+    "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\ASP.NET MVC core\\SoccerShoesShop\\SoccerShoesShop.csproj",
+        "projectUniqueName": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj",
         "projectName": "SoccerShoesShop",
-        "projectPath": "D:\\workspace\\ASP.NET MVC core\\SoccerShoesShop\\SoccerShoesShop.csproj",
+        "projectPath": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj",
         "packagesPath": "C:\\Users\\bedev\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\ASP.NET MVC core\\SoccerShoesShop\\obj\\",
+        "outputPath": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bedev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
