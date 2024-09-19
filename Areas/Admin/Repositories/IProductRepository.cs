@@ -1,6 +1,6 @@
-﻿using SoccerShoesShop.Models;
+﻿using SoccerShoesShop.Areas.Admin.Models;
 
-namespace SoccerShoesShop.Repositories
+namespace SoccerShoesShop.Areas.Admin.Repositories
 {
     public interface IProductRepository
     {

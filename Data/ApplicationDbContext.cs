@@ -42,7 +42,7 @@ public partial class ApplicationDbContext : DbContext
 
             entity.ToTable("Account");
 
-            entity.HasIndex(e => e.Username, "UQ__Account__F3DBC572B3E13271").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__Account__F3DBC5726E0ABF95").IsUnique();
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()
@@ -150,7 +150,6 @@ public partial class ApplicationDbContext : DbContext
             entity.Property(e => e.SellingPrice)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("sellingPrice");
-            entity.Property(e => e.UserId).HasColumnName("userId");
 
             entity.HasOne(d => d.Category).WithMany(p => p.Products)
                 .HasForeignKey(d => d.CategoryId)

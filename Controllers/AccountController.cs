@@ -4,7 +4,7 @@ using SoccerShoesShop.Models;
 using SoccerShoesShop.Services;
 using System.Security.Claims;
 
-namespace SoccerShoesShop.Controllers.Admin
+namespace SoccerShoesShop.Controllers
 {
     public class AccountController : Controller
     {

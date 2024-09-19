@@ -2,7 +2,7 @@
 using SoccerShoesShop.Areas.Admin.Models;
 using SoccerShoesShop.Data;
 
-namespace SoccerShoesShop.Repositories
+namespace SoccerShoesShop.Areas.Admin.Repositories
 {
     public class CategoryRepository : ICategoryRepository
     {

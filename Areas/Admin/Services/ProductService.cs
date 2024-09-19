@@ -1,9 +1,8 @@
-﻿using SoccerShoesShop.Common;
-using SoccerShoesShop.Models;
-using SoccerShoesShop.Repositories;
-using static System.Net.Mime.MediaTypeNames;
+﻿using SoccerShoesShop.Areas.Admin.Models;
+using SoccerShoesShop.Common;
+using SoccerShoesShop.Areas.Admin.Repositories;
 
-namespace SoccerShoesShop.Services
+namespace SoccerShoesShop.Areas.Admin.Services
 {
     public class ProductService : IProductService
     {
@@ -21,8 +20,7 @@ namespace SoccerShoesShop.Services
             var newProduct = new Product
             {
                 ProductId = IdGenerator.GeneratedIdBasedOnTime(),
-                CategoryId = 1,
-                UserId = 1,
+                CategoryId = product.Category.CategoryId,
                 Name = product.Name,
                 Description = product.Description,
                 Discount = product.Discount,
@@ -55,7 +53,6 @@ namespace SoccerShoesShop.Services
             var productExisting = await _productRepository.findByIdAsync(product.ProductId);
             if (productExisting == null) throw new ArgumentNullException("ProductExisting is null");
             productExisting.CategoryId = product.CategoryId;
-            productExisting.UserId = product.UserId;
             productExisting.Name = product.Name;
             productExisting.Description = product.Description;
             productExisting.Discount = product.Discount;

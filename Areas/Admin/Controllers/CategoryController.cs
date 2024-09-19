@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SoccerShoesShop.Areas.Admin.Models;
-using SoccerShoesShop.Services;
-
+using SoccerShoesShop.Areas.Admin.Services;
 namespace SoccerShoesShop.Areas.Admin.Controllers
 {
     [Area("Admin")]

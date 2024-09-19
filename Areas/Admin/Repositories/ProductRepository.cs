@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SoccerShoesShop.Areas.Admin.Models;
 using SoccerShoesShop.Data;
-using SoccerShoesShop.Models;
 
-namespace SoccerShoesShop.Repositories
+namespace SoccerShoesShop.Areas.Admin.Repositories
 {
     public class ProductRepository : IProductRepository
     {
@@ -29,7 +29,7 @@ namespace SoccerShoesShop.Repositories
 
         public async Task<IEnumerable<Product>> findAllAsync()
         {
-            return await _context.Products.ToListAsync();
+            return await _context.Products.Include(p => p.Category).ToListAsync();
         }
 
         public async Task<Product> findByIdAsync(int id)

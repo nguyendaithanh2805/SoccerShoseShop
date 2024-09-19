@@ -1,6 +1,6 @@
 ﻿using SoccerShoesShop.Areas.Admin.Models;
 
-namespace SoccerShoesShop.Services
+namespace SoccerShoesShop.Areas.Admin.Services
 {
     public interface ICategoryService
     {

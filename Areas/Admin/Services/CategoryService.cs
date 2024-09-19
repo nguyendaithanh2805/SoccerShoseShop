@@ -1,9 +1,8 @@
 ﻿using SoccerShoesShop.Areas.Admin.Models;
+using SoccerShoesShop.Areas.Admin.Repositories;
 using SoccerShoesShop.Common;
-using SoccerShoesShop.Data;
-using SoccerShoesShop.Repositories;
 
-namespace SoccerShoesShop.Services
+namespace SoccerShoesShop.Areas.Admin.Services
 {
     public class CategoryService : ICategoryService
     {
