@@ -1,0 +1,37 @@
+﻿@model IEnumerable<SoccerShoesShop.Models.Cart>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+
+</style>
+<section class="products" id="products">
+<div class="box-container">
+        @if(Model is null || !Model.Any())
+        {
+            <a class="btn btn-success" href="@Url.Action("Index", "Menu")">Go to shopping</a>
+        } else
+        {
+            @foreach(var cart in Model)
+            {
+                <div class="box" style="margin-top: 100px;">
+                    <div class="image">
+                        <img src=@Url.Content($"~{cart.Product.Image}") alt="">
+                    </div>
+                    <div class="content">
+                        <h3>@cart.Product.Name</h3>
+                        <div class="price">@cart.Product.SellingPrice</div>
+                        <div class="price">@cart.TotalBill</div>
+                        <div class="price">
+                            <span>Quantities : @cart.Quantity</span>
+                        </div>
+                        <a class="btn btn-danger" asp-controller="Cart" asp-action="Delete" asp-route-id="@cart.ProductId" 
+                                style="background: #c55353; display: flex; justify-content: center;align-items: center;">
+                            Delete
+                        </a>
+                    </div>
+                </div>
+            }
+        }
+</div>
+</section>

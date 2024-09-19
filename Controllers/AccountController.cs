@@ -16,9 +16,6 @@ namespace SoccerShoesShop.Controllers
         }
 
         [HttpGet]
-        public IActionResult AccessDenied() => View();
-
-        [HttpGet]
         public IActionResult Login() => View();
 
         [HttpPost]
@@ -29,7 +26,8 @@ namespace SoccerShoesShop.Controllers
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, accountCheck.Username), // Luu username vao Claim
-                new Claim(ClaimTypes.Role, accountCheck.Role.Name) // Luu Role cua nguoi dung vao claim
+                new Claim(ClaimTypes.Role, accountCheck.Role.Name), // Luu Role cua nguoi dung vao claim
+                new Claim(ClaimTypes.NameIdentifier, accountCheck.UserId.ToString())
             };
             var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth"); // Cac claim duoc gan vao ClaimIdentity dung de tao danh tinh nguoi dung cho session
             await HttpContext.SignInAsync("CookieAuth", new ClaimsPrincipal(claimsIdentity)); // HttpContext.SignInAsync duoc goi de thuc hien Login, su dung cookie xac thuc 'CookieAuth'
@@ -56,5 +54,8 @@ namespace SoccerShoesShop.Controllers
             await HttpContext.SignOutAsync("CookieAuth");
             return RedirectToAction(nameof(Login));
         }
+
+        [HttpGet]
+        public IActionResult AccessDenied() => View();
     }
 }

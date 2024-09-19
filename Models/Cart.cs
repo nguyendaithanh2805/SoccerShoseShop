@@ -16,5 +16,7 @@ public partial class Cart
 
     public decimal TotalBill { get; set; }
 
-    public virtual Product Product { get; set; } = null!;
+    public virtual Product? Product { get; set; } = null;
+
+    public virtual Account? User { get; set; } = null;
 }

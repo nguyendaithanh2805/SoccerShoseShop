@@ -2,13 +2,13 @@
 @{
     Layout = null;
 }
-@Html.Partial("~/Views/Shared/Partial/_Head.cshtml");
+@Html.Partial("~/Views/Shared/Partial/_Head.cshtml")
 <style>
     body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center
     }
 </style>
 <div class="login-box">
@@ -43,7 +43,7 @@
                         <button type="submit" class="btn btn-success btn-block">Sign In</button>
                     </div>
                     <div class="col-6">
-                        <button asp-controller="Account" asp-action="Register" class="btn btn-primary btn-block">Register</button>
+                        <a href="@Url.Action("Register", "Account")" class="btn btn-primary btn-block">Register</a>
                     </div>
                     <!-- /.col -->
                 </div>

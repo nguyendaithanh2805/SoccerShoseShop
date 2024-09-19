@@ -15,7 +15,7 @@
     <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
         <div id="search-btn" class="fas fa-search"></div>
-        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="@Url.Action("Index", "Cart")" class="fas fa-shopping-cart"></a>
         @if(!User.Identity.IsAuthenticated)
         {
             <a asp-controller="Account" asp-action="Login">

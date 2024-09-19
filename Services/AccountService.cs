@@ -18,7 +18,7 @@ namespace SoccerShoesShop.Services
 
         public async Task AddAccountAsync(Account account)
         {
-            var roleId = account.Username.Equals("ADMIN") ? 1 : 2;
+            var roleId = account.Username.ToUpper().Equals("ADMIN") ? 1 : 2;
             var hashedPassword = _passwordHasher.HashPassword(account, account.Password);
             var newAccount = new Account
             {

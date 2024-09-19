@@ -9,6 +9,11 @@
         color: #ff4d4d;
         margin-top: 20px;
     }
+
+    .quantity-btn {
+        border: 1px solid;
+        width: 30px;
+    }
 </style>
 <section class="products" id="products">
 
@@ -46,7 +51,18 @@
                                 <span style="display: flex; justify-content: center; color: red; font-size: 20px;">Sold Out</span>
                             } else
                             {
-                                <span class="btn">Add To Cart <i class="fa-solid fa-cart-shopping"></i> </span>
+                                <div class="quantity-controls" style="display: flex; justify-content: center;">
+                                    <button class="quantity-btn" onclick="decrementQuantity(this)" style="border-right: 0;">-</button>
+                                    <label style="border: 1px solid;">
+                                        <input type="text" class="quantity-input" value="1" min="1" data-max="@product.Quantity" style="text-align: center; width: 50px;">
+                                    </label>
+                                    <button class="quantity-btn" onclick="incrementQuantity(this)" style="border-left: 0;">+</button>
+                                </div>
+                                <form asp-controller="Cart" asp-action="AddToCart" method="post" onsubmit="return updateQuantity(this)">
+                                    <input type="hidden" name="productId" value="@product.ProductId" />
+                                    <input type="hidden" name="quantity" value="" class="quantity-hidden" />
+                                    <button type="submit" class="btn">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                </form>
                             }
                         </div>
 
@@ -55,5 +71,46 @@
             }
         }
     </div>
-
 </section>
+<script>
+    function updateQuantity(form) {
+        const quantityInput = form.closest('.box').querySelector('.quantity-input');
+        
+        const quantityValue = quantityInput.value;
+
+        form.querySelector('.quantity-hidden').value = quantityValue;
+
+        return true;
+    }
+    function incrementQuantity(button) {
+        const input = button.parentElement.querySelector('.quantity-input');
+        const max = input.getAttribute('data-max');
+        if (parseInt(input.value) < parseInt(max)) {
+            input.value = parseInt(input.value) + 1;
+        }
+    }
+
+    function decrementQuantity(button) {
+        const input = button.parentElement.querySelector('.quantity-input');
+        if (parseInt(input.value) > 1) {
+            input.value = parseInt(input.value) - 1;
+        }
+    }
+
+    let debounceTimeout;
+    document.querySelectorAll('.quantity-input').forEach(input => {
+        input.addEventListener('input', () => {
+            clearTimeout(debounceTimeout);
+            debounceTimeout = setTimeout(() => {
+                const max = parseInt(input.getAttribute('data-max'));
+                let value = parseInt(input.value);
+
+                if (isNaN(value) || value < 1) {
+                    input.value = 1;
+                } else if (value > max) {
+                    input.value = max;
+                }
+            }, 300);
+        });
+    });
+</script>

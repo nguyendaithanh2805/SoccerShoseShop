@@ -42,7 +42,7 @@ public partial class ApplicationDbContext : DbContext
 
             entity.ToTable("Account");
 
-            entity.HasIndex(e => e.Username, "UQ__Account__F3DBC5726E0ABF95").IsUnique();
+            entity.HasIndex(e => e.Username, "UQ__Account__F3DBC572AC999F60").IsUnique();
 
             entity.Property(e => e.UserId)
                 .ValueGeneratedNever()
@@ -81,6 +81,11 @@ public partial class ApplicationDbContext : DbContext
                 .HasForeignKey(d => d.ProductId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_cart_product");
+
+            entity.HasOne(d => d.User).WithMany(p => p.Carts)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_cart_account");
         });
 
         modelBuilder.Entity<Category>(entity =>

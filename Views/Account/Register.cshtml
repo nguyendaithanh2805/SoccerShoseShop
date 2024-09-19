@@ -2,18 +2,18 @@
 @{
     Layout = null;
 }
-@Html.Partial("~/Views/Shared/Partial/_Head.cshtml");
+@Html.Partial("~/Views/Shared/Partial/_Head.cshtml")
 <style>
     body {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center
     }
 </style>
 <div class="login-box">
     <div class="login-logo">
-        <a href="../../index2.html"><b>Admin</b>LTE</a>
+        <a href="#"><b>Admin</b>LTE</a>
     </div>
     <!-- /.login-logo -->
     <div class="card">
@@ -43,7 +43,9 @@
                         <button type="submit" class="btn btn-primary btn-block">Register</button>
                     </div>
                     <div class="col-12" style="margin: 10px 0px">
-                        <button asp-controller="Account" asp-action="Login" class="btn btn-danger btn-block">Cancel</button>
+                        <a class="btn btn-danger btn-block" href="@Url.Action("Login", "Account")">
+                            Cancel
+                        </a>
                     </div>
                     <!-- /.col -->
                 </div>
