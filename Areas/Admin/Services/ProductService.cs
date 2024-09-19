@@ -59,6 +59,7 @@ namespace SoccerShoesShop.Areas.Admin.Services
             productExisting.Image = product.Image;
             productExisting.Quantity = product.Quantity;
             productExisting.SellingPrice = product.SellingPrice;
+            await _productRepository.UpdateAsync(productExisting);
         }
     }
 }

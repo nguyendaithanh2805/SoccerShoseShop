@@ -49,5 +49,12 @@ namespace SoccerShoesShop.Controllers
             }
             return View(account);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("CookieAuth");
+            return RedirectToAction(nameof(Login));
+        }
     }
 }
