@@ -52,7 +52,7 @@ namespace SoccerShoesShop.Areas.Admin.Services
         {
             var productExisting = await _productRepository.findByIdAsync(product.ProductId);
             if (productExisting == null) throw new ArgumentNullException("ProductExisting is null");
-            productExisting.CategoryId = product.CategoryId;
+            productExisting.Category.CategoryId = product.Category.CategoryId;
             productExisting.Name = product.Name;
             productExisting.Description = product.Description;
             productExisting.Discount = product.Discount;

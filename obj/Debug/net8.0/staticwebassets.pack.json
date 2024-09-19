@@ -89,12 +89,12 @@
       "PackagePath": "staticwebassets\\images\\default-150x150.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-1.png",
-      "PackagePath": "staticwebassets\\images\\header-1.png"
+      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-1.jpg",
+      "PackagePath": "staticwebassets\\images\\header-1.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-2.png",
-      "PackagePath": "staticwebassets\\images\\header-2.png"
+      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-2.jpg",
+      "PackagePath": "staticwebassets\\images\\header-2.jpg"
     },
     {
       "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\icons.png",
@@ -527,6 +527,18 @@
     {
       "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg",
+      "PackagePath": "staticwebassets\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg"
+    },
+    {
+      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-2.png",
+      "PackagePath": "staticwebassets\\uploads\\product-2.png"
+    },
+    {
+      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-6.png",
+      "PackagePath": "staticwebassets\\uploads\\product-6.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SoccerShoesShop.Microsoft.AspNetCore.StaticWebAssets.props",

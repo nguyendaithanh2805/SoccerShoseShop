@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rHa943Cq4GgI7hxqMDV82X02TXZgcaERBWZRUd4QoC0=",
+  "Hash": "eA+LU9yxCsZzKvSpF9dqslZjDQ8yp4sDsSa+nQKL0VU=",
   "Source": "SoccerShoesShop",
   "BasePath": "_content/SoccerShoesShop",
   "Mode": "Default",
@@ -416,12 +416,12 @@
       "OriginalItemSpec": "wwwroot\\images\\default-150x150.png"
     },
     {
-      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-1.png",
+      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-1.jpg",
       "SourceId": "SoccerShoesShop",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\",
       "BasePath": "_content/SoccerShoesShop",
-      "RelativePath": "images/header-1.png",
+      "RelativePath": "images/header-1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -432,15 +432,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\header-1.png"
+      "OriginalItemSpec": "wwwroot\\images\\header-1.jpg"
     },
     {
-      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-2.png",
+      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-2.jpg",
       "SourceId": "SoccerShoesShop",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\",
       "BasePath": "_content/SoccerShoesShop",
-      "RelativePath": "images/header-2.png",
+      "RelativePath": "images/header-2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -451,7 +451,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\header-2.png"
+      "OriginalItemSpec": "wwwroot\\images\\header-2.jpg"
     },
     {
       "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\icons.png",
@@ -2523,6 +2523,63 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg",
+      "SourceId": "SoccerShoesShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\",
+      "BasePath": "_content/SoccerShoesShop",
+      "RelativePath": "uploads/18f58f6a8091bcd1a6e7ecda7928c29c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg"
+    },
+    {
+      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-2.png",
+      "SourceId": "SoccerShoesShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\",
+      "BasePath": "_content/SoccerShoesShop",
+      "RelativePath": "uploads/product-2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product-2.png"
+    },
+    {
+      "Identity": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-6.png",
+      "SourceId": "SoccerShoesShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\",
+      "BasePath": "_content/SoccerShoesShop",
+      "RelativePath": "uploads/product-6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\product-6.png"
     }
   ]
 }
