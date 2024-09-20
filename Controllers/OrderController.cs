@@ -10,11 +10,15 @@ namespace SoccerShoesShop.Controllers
     {
         private readonly IOrderService _orderService;
         private readonly GetCurrentUser _getCurrentUser;
+        private readonly IOrderDetailService _orderDetailService;
+        private readonly ICartService _cartService;
 
-        public OrderController(IOrderService orderService, GetCurrentUser getCurrentUser)
+        public OrderController(IOrderService orderService, GetCurrentUser getCurrentUser, IOrderDetailService orderDetailService, ICartService cartService)
         {
             _orderService = orderService;
             _getCurrentUser = getCurrentUser;
+            _orderDetailService = orderDetailService;
+            _cartService = cartService;
         }
 
         [HttpGet]
@@ -37,10 +41,13 @@ namespace SoccerShoesShop.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Checkout(TblOrder order)
+        public async Task<IActionResult> Checkout(TblOrder order, OrderDetail orderDetail)
         {
             var userId = await _getCurrentUser.GetUserId();
-            await _orderService.AddOrderAsync(order, userId);
+            var username = await _getCurrentUser.GetUsername();
+            var carts = await _cartService.GetCartByUsernameAsync(username);
+            foreach(var cart in carts)
+                await _orderDetailService.AddOrderDetailAsync(orderDetail, cart, order, userId);
             return RedirectToAction("Index", "Menu");
         }
     }

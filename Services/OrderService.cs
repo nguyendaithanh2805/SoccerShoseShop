@@ -1,4 +1,5 @@
 ﻿using SoccerShoesShop.Common;
+using SoccerShoesShop.Data;
 using SoccerShoesShop.Models;
 using SoccerShoesShop.Repositories;
 using System.Net;
@@ -14,11 +15,11 @@ namespace SoccerShoesShop.Services
             _orderRepository = orderRepository;
         }
 
-        public async Task AddOrderAsync(TblOrder order, int userId)
+        public async Task AddOrderAsync(TblOrder order, int userId, OrderDetail orderDetail)
         {
             var newOrder = new TblOrder
             {
-                OrderId = IdGenerator.GeneratedIdBasedOnTime(),
+                OrderId = orderDetail.OrderId,
                 PaymentMethod = order.PaymentMethod,
                 UserId = userId,
                 OrderDate = DateHelper.GetCurrentDate(),
