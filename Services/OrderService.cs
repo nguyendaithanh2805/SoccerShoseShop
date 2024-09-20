@@ -39,12 +39,17 @@ namespace SoccerShoesShop.Services
             return await _orderRepository.findAllAsync();
         }
 
-        public async Task UpdateOrderAsync(TblOrder order, int userId)
+        public async Task<TblOrder> GetOrderByIdAsync(int id)
+        {
+            return await _orderRepository.findByIdAsync(id);
+        }
+
+        public async Task UpdateOrderAsync(TblOrder order)
         {
             var orderExisting = await _orderRepository.findByIdAsync(order.OrderId);
             if (orderExisting is null) throw new ArgumentNullException("Order is null");
             orderExisting.PaymentMethod = order.PaymentMethod;
-            orderExisting.UserId = userId;
+            orderExisting.UserId = order.UserId;
             orderExisting.OrderDate = DateHelper.GetCurrentDate();
             orderExisting.DeliveryDate = DateHelper.AddThreeDays(3);
             orderExisting.Status = order.Status;

@@ -7,6 +7,7 @@ namespace SoccerShoesShop.Services
         Task<IEnumerable<TblOrder>> GetAllOrderAsync();
         Task DeleteOrderAsync(int id);
         Task AddOrderAsync(TblOrder tblOrder, int userId);
-        Task UpdateOrderAsync(TblOrder tblOrder, int userId);
+        Task UpdateOrderAsync(TblOrder tblOrder);
+        Task<TblOrder> GetOrderByIdAsync(int id);
     }
 }

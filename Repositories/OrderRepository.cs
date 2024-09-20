@@ -29,7 +29,7 @@ namespace SoccerShoesShop.Repositories
 
         public async Task<IEnumerable<TblOrder>> findAllAsync()
         {
-            return await _context.TblOrders.ToListAsync();
+            return await _context.TblOrders.Include(o => o.User).ToListAsync();
         }
 
         public async Task<TblOrder> findByIdAsync(int id)
