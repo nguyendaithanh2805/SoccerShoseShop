@@ -11,7 +11,7 @@ namespace SoccerShoesShop.Common
             _contextAccessor = contextAccessor;
         }
 
-        public string GetUsername()
+        public async Task<string> GetUsername()
         {
             // Truy cap context de lay thong tin user hien tai
             var user = _contextAccessor.HttpContext?.User;
@@ -21,10 +21,10 @@ namespace SoccerShoesShop.Common
             var username = user.FindFirst(ClaimTypes.Name)?.Value;
             if (string.IsNullOrEmpty(username))
                 throw new ArgumentNullException("Username is null");
-            return username;
+            return await Task.FromResult(username);
         }
 
-        public int GetUserId()
+        public async Task<int> GetUserId()
         {
             // Truy cap context de lay thong tin user hien tai
             var user = _contextAccessor.HttpContext?.User;
@@ -34,7 +34,7 @@ namespace SoccerShoesShop.Common
             var userId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value;
             if (string.IsNullOrEmpty(userId))
                 throw new ArgumentNullException("UserId is null");
-            return int.Parse(userId);
+            return await Task.FromResult(int.Parse(userId));
         }
     }
 }

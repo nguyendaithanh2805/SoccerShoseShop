@@ -6,10 +6,9 @@
     <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> shoes</a>
 
     <nav class="navbar">
-        <a asp-controller="Home" asp-action="Index">Home</a>
-        <a asp-controller="Menu" asp-action="Index">Products</a>
-        <a href="#review">review</a>
-        <a href="#contact">contact</a>
+        <a href="@Url.Action("Index", "Home")">Home</a>
+        <a href="@Url.Action("Index", "Menu")">Products</a>
+        <a href="@Url.Action("Index", "Contact")">contact</a>
     </nav>
 
     <div class="icons">

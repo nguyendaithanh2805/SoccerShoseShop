@@ -26,7 +26,7 @@ namespace SoccerShoesShop.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var username = _getCurrentUser.GetUsername();
+            var username = await _getCurrentUser.GetUsername();
             var carts = await _cartService.GetCartByUsernameAsync(username);
             return View(carts);
         }
@@ -34,23 +34,15 @@ namespace SoccerShoesShop.Controllers
         [HttpPost]
         public async Task<IActionResult> AddToCart(int productId, int quantity, Cart cart)
         {
-            try
-            {
-                var userId = _getCurrentUser.GetUserId();
-                await _cartService.AddOrUpdateCartAsync(userId, productId, quantity);
-                return RedirectToAction("Index", "Menu");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                return View("Error");
-            }
+            var userId = await _getCurrentUser.GetUserId();
+            await _cartService.AddOrUpdateCartAsync(userId, productId, quantity);
+            return RedirectToAction("Index", "Menu");
         }
 
         [HttpGet]
         public async Task<IActionResult> Delete(int id)
         {
-            var userId = _getCurrentUser.GetUserId();
+            var userId = await _getCurrentUser.GetUserId();
             await _cartService.DeleteCartAsync(id, userId);
             return RedirectToAction(nameof(Index));
         }
