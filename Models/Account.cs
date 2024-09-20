@@ -14,6 +14,6 @@ public partial class Account
     public string Password { get; set; } = null!;
 
     public virtual ICollection<Cart> Carts { get; set; } = new List<Cart>();
-
+    public virtual ICollection<TblOrder> TblOrders { get; set; } = new List<TblOrder>();
     public virtual Role? Role { get; set; } = null;
 }

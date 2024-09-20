@@ -1,0 +1,28 @@
+﻿@model SoccerShoesShop.Models.TblOrder
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+</style>
+<section class="contact" id="contact" style="margin: 150px;">
+
+    <h1 class="heading"><span>Order</span></h1>
+
+    <div class="row">
+        <form asp-action="Checkout" method="post">
+            <select id="PaymentMethod" name="PaymentMethod" asp-for="PaymentMethod" asp-items="ViewBag.PaymentMethods" style="border: solid 1px;">
+                <option value="">--Select payment methods--</option>
+            </select>
+            <textarea asp-for="Address" id="Address" name="Address" rows="3" cols="20" placeholder="Input Your Address..." style="border: solid 1px; margin: 10px 0px;"></textarea>
+
+            <button type="submit" value="send message" class="btn" style="justify-content: center;">Submit</button>
+        </form>
+
+    </div>
+
+</section>
