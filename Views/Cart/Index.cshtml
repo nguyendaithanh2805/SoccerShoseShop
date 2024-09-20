@@ -3,13 +3,18 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <style>
-
+    .no-product {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 300px 0;
+        background: #c55353;
+    }
 </style>
 <section class="products" id="products">
-<div class="box-container">
-        @if(Model is null || !Model.Any())
+    <div class="box-container" style="display: flex;flex-wrap: wrap;">
+        @if(Model is null || !(Model.Any()))
         {
-            <a class="btn btn-success" href="@Url.Action("Index", "Menu")">Go to shopping</a>
+            <a class="btn btn-success no-product" href="@Url.Action("Index", "Menu")">Go to shopping</a>
         } else
         {
             @foreach(var cart in Model)
@@ -25,7 +30,7 @@
                         <div class="price">
                             <span>Quantities : @cart.Quantity</span>
                         </div>
-                        <a class="btn btn-danger" asp-controller="Cart" asp-action="Delete" asp-route-id="@cart.ProductId" 
+                        <a class="btn btn-danger" asp-controller="Cart" asp-action="Delete" asp-route-id="@cart.CartId" 
                                 style="background: #c55353; display: flex; justify-content: center;align-items: center;">
                             Delete
                         </a>
@@ -34,4 +39,19 @@
             }
         }
 </div>
+    @if (Model is not null && Model.Any())
+    {
+        <div>
+            <a class="btn btn-danger" href="@Url.Action("Index", "Menu")"
+               style="background: #c55353; display: flex; justify-content: center;align-items: center; width: 200px">
+                Go to shopping
+            </a>
+            <a class="btn btn-danger"
+               style="background: #307b57; display: flex; justify-content: center;align-items: center; width: 200px">
+                Checkout
+            </a>
+            
+        </div>
+        
+    }
 </section>

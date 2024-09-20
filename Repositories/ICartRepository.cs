@@ -5,7 +5,7 @@ namespace SoccerShoesShop.Repositories
     public interface ICartRepository
     {
         Task<IEnumerable<Cart>> findAllAsync();
-        Task<Cart> findByIdAsync(int id);
+        Task<Cart> findByIdAndUserIdAsync(int id, int userId);
         Task AddAsync(Cart cart);
         Task UpdateAsync(Cart cart);
         Task DeleteAsync(int id);

@@ -46,5 +46,13 @@ namespace SoccerShoesShop.Controllers
                 return View("Error");
             }
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var userId = _getCurrentUser.GetUserId();
+            await _cartService.DeleteCartAsync(id, userId);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

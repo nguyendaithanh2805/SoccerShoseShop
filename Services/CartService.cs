@@ -42,9 +42,9 @@ namespace SoccerShoesShop.Services
             }
         }
 
-        public async Task DeleteCartAsync(int id)
+        public async Task DeleteCartAsync(int id, int userId)
         {
-            var cart = _cartRepository.findByIdAsync(id);
+            var cart = await _cartRepository.findByIdAndUserIdAsync(id, userId);
             if (cart is null) throw new ArgumentNullException("Cart is null (Service)");
             await _cartRepository.DeleteAsync(id);
         }
@@ -52,11 +52,6 @@ namespace SoccerShoesShop.Services
         public async Task<IEnumerable<Cart>> GetAllCartAsync()
         {
             return await _cartRepository.findAllAsync();
-        }
-
-        public async Task<Cart> GetCartById(int id)
-        {
-            return await _cartRepository.findByIdAsync(id);
         }
 
         public async Task<Cart> GetCartByProductIdAsync(int productId, int userId)

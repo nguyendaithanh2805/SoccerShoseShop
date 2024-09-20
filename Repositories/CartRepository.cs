@@ -33,9 +33,9 @@ namespace SoccerShoesShop.Repositories
             return await _context.Carts.ToListAsync();
         }
 
-        public async Task<Cart> findByIdAsync(int id)
+        public async Task<Cart> findByIdAndUserIdAsync(int id, int userId)
         {   
-            return await _context.Carts.FindAsync(id);
+            return await _context.Carts.Include(c => c.User).Where(c => c.UserId == userId && c.CartId == id).SingleOrDefaultAsync();
         }
 
         public async Task<IEnumerable<Cart>> findByUsernameAsync(string username)

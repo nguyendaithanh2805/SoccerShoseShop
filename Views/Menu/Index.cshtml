@@ -58,10 +58,10 @@
                                     </label>
                                     <button class="quantity-btn" onclick="incrementQuantity(this)" style="border-left: 0;">+</button>
                                 </div>
-                                <form asp-controller="Cart" asp-action="AddToCart" method="post" onsubmit="return updateQuantity(this)">
+                                <form asp-controller="Cart" asp-action="AddToCart" method="post" onsubmit="return updateQuantity(this)" style="display: flex; flex-direction: column;">
                                     <input type="hidden" name="productId" value="@product.ProductId" />
                                     <input type="hidden" name="quantity" value="" class="quantity-hidden" />
-                                    <button type="submit" class="btn">Add To Cart <i class="fa-solid fa-cart-shopping"></i></button>
+                                    <button type="submit" class="btn" style="display: flex; justify-content: center;"><p>Add To Cart</p><i class="fa-solid fa-cart-shopping"></i></button>
                                 </form>
                             }
                         </div>
