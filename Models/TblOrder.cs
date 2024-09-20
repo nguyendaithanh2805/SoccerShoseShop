@@ -20,4 +20,6 @@ public partial class TblOrder
     public string Address { get; set; } = null!;
 
     public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+
+    public virtual Account? User { get; set; } = null;
 }

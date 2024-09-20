@@ -196,6 +196,11 @@ public partial class ApplicationDbContext : DbContext
                 .HasColumnName("paymentMethod");
             entity.Property(e => e.Status).HasColumnName("status");
             entity.Property(e => e.UserId).HasColumnName("userId");
+
+            entity.HasOne(d => d.User).WithMany(p => p.TblOrders)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_order_account");
         });
 
         OnModelCreatingPartial(modelBuilder);
