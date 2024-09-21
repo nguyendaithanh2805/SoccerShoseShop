@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\sonpr\OneDrive\ドキュメント\Do An\soccerShose_db
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/sonpr/OneDrive/ドキュメント/Do An/soccerShose_db/Areas/Admin/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sonpr/OneDrive/ドキュメント/Do An/soccerShose_db/Areas/Admin/Views/Category/CreateOrEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlT3JFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

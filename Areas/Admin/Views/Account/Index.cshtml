@@ -1,0 +1,32 @@
+﻿@model IEnumerable<SoccerShoesShop.Models.Account>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Role Name</th>
+            <th scope="col">Username</th>
+            <th scope="col">Password</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var account in Model)
+        {
+                <tr>
+                    <td>@account.UserId</td>
+                    <td>@account.Role.Name</td>
+                    <td>@account.Username</td>
+                    <td>@account.Username</td>
+                    <td>@account.Password</td>
+                    <td>
+                        <a class="btn btn-danger" asp-area="Admin" asp-controller="Account" asp-action="Delete" asp-route-id="@account.UserId">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+    <tfoot>
+    </tfoot>
+</table>
