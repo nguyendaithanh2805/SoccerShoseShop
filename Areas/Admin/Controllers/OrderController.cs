@@ -29,5 +29,12 @@ namespace SoccerShoesShop.Areas.Admin.Controllers
             await _orderService.UpdateOrderAsync(order);
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpGet]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _orderService.DeleteOrderAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

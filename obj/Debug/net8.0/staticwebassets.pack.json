@@ -1,547 +1,567 @@
 {
   "Files": [
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\AdminLTELogo.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\images\\AdminLTELogo.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\Send gift.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\Send gift.png",
       "PackagePath": "staticwebassets\\images\\Send gift.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\avatar.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\avatar.png",
       "PackagePath": "staticwebassets\\images\\avatar.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\avatar2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\avatar2.png",
       "PackagePath": "staticwebassets\\images\\avatar2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\avatar3.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\avatar3.png",
       "PackagePath": "staticwebassets\\images\\avatar3.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\avatar4.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\avatar4.png",
       "PackagePath": "staticwebassets\\images\\avatar4.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\avatar5.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\avatar5.png",
       "PackagePath": "staticwebassets\\images\\avatar5.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\banner1.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\banner1.jpg",
       "PackagePath": "staticwebassets\\images\\banner1.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\banner2.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\banner2.jpg",
       "PackagePath": "staticwebassets\\images\\banner2.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\boxed-bg.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\boxed-bg.jpg",
       "PackagePath": "staticwebassets\\images\\boxed-bg.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\boxed-bg.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\boxed-bg.png",
       "PackagePath": "staticwebassets\\images\\boxed-bg.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\contact.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\contact.png",
       "PackagePath": "staticwebassets\\images\\contact.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\american-express.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\american-express.png",
       "PackagePath": "staticwebassets\\images\\credit\\american-express.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\cirrus.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\cirrus.png",
       "PackagePath": "staticwebassets\\images\\credit\\cirrus.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\mastercard.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\mastercard.png",
       "PackagePath": "staticwebassets\\images\\credit\\mastercard.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\paypal.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\paypal.png",
       "PackagePath": "staticwebassets\\images\\credit\\paypal.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\paypal2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\paypal2.png",
       "PackagePath": "staticwebassets\\images\\credit\\paypal2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\credit\\visa.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\credit\\visa.png",
       "PackagePath": "staticwebassets\\images\\credit\\visa.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\default-150x150.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\default-150x150.png",
       "PackagePath": "staticwebassets\\images\\default-150x150.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-1.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\header-1.jpg",
       "PackagePath": "staticwebassets\\images\\header-1.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\header-2.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\header-2.jpg",
       "PackagePath": "staticwebassets\\images\\header-2.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\icons.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\icons.png",
       "PackagePath": "staticwebassets\\images\\icons.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\photo1.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\photo1.png",
       "PackagePath": "staticwebassets\\images\\photo1.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\photo2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\photo2.png",
       "PackagePath": "staticwebassets\\images\\photo2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\photo3.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\photo3.jpg",
       "PackagePath": "staticwebassets\\images\\photo3.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\photo4.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\photo4.jpg",
       "PackagePath": "staticwebassets\\images\\photo4.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\pic-1.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\pic-1.png",
       "PackagePath": "staticwebassets\\images\\pic-1.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\pic-2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\pic-2.png",
       "PackagePath": "staticwebassets\\images\\pic-2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\pic-3.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\pic-3.png",
       "PackagePath": "staticwebassets\\images\\pic-3.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\prod-1.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\prod-1.jpg",
       "PackagePath": "staticwebassets\\images\\prod-1.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\prod-2.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\prod-2.jpg",
       "PackagePath": "staticwebassets\\images\\prod-2.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\prod-3.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\prod-3.jpg",
       "PackagePath": "staticwebassets\\images\\prod-3.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\prod-4.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\prod-4.jpg",
       "PackagePath": "staticwebassets\\images\\prod-4.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\prod-5.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\prod-5.jpg",
       "PackagePath": "staticwebassets\\images\\prod-5.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-1.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-1.png",
       "PackagePath": "staticwebassets\\images\\product-1.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-2.png",
       "PackagePath": "staticwebassets\\images\\product-2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-3.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-3.png",
       "PackagePath": "staticwebassets\\images\\product-3.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-4.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-4.png",
       "PackagePath": "staticwebassets\\images\\product-4.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-5.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-5.png",
       "PackagePath": "staticwebassets\\images\\product-5.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\product-6.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\product-6.png",
       "PackagePath": "staticwebassets\\images\\product-6.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user1-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user1-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user1-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user2-160x160.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user2-160x160.jpg",
       "PackagePath": "staticwebassets\\images\\user2-160x160.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user3-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user3-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user3-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user4-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user4-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user4-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user5-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user5-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user5-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user6-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user6-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user6-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user7-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user7-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user7-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\images\\user8-128x128.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\images\\user8-128x128.jpg",
       "PackagePath": "staticwebassets\\images\\user8-128x128.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\adminlte.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\adminlte.js",
       "PackagePath": "staticwebassets\\js\\adminlte.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\adminlte.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\adminlte.js.map",
       "PackagePath": "staticwebassets\\js\\adminlte.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\dashboard3.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\dashboard3.js",
       "PackagePath": "staticwebassets\\js\\dashboard3.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\demo.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\demo.js",
       "PackagePath": "staticwebassets\\js\\demo.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\adminlte.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\adminlte.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\adminlte.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\adminlte.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\adminlte.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\all.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\all.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\all.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.eot",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.eot",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.svg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.eot",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.eot",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.svg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.eot",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.eot",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.svg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg",
       "PackagePath": "staticwebassets\\uploads\\18f58f6a8091bcd1a6e7ecda7928c29c.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\3d34947970b0b0c79caecbb16502b020.jpg",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\3d34947970b0b0c79caecbb16502b020.jpg",
       "PackagePath": "staticwebassets\\uploads\\3d34947970b0b0c79caecbb16502b020.jpg"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-2.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\AnhoLe_PC.png",
+      "PackagePath": "staticwebassets\\uploads\\AnhoLe_PC.png"
+    },
+    {
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\Giày nike.jpg",
+      "PackagePath": "staticwebassets\\uploads\\Giày nike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\adidas.jpg",
+      "PackagePath": "staticwebassets\\uploads\\adidas.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\nike.jpg",
+      "PackagePath": "staticwebassets\\uploads\\nike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\nike2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\nike2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\product-2.png",
       "PackagePath": "staticwebassets\\uploads\\product-2.png"
     },
     {
-      "Id": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\wwwroot\\uploads\\product-6.png",
+      "Id": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\wwwroot\\uploads\\product-6.png",
       "PackagePath": "staticwebassets\\uploads\\product-6.png"
     },
     {

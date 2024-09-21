@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj": {}
+    "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\SoccerShoesShop.csproj": {}
   },
   "projects": {
-    "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj": {
+    "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\SoccerShoesShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj",
+        "projectUniqueName": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\SoccerShoesShop.csproj",
         "projectName": "SoccerShoesShop",
-        "projectPath": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\SoccerShoesShop.csproj",
-        "packagesPath": "C:\\Users\\bedev\\.nuget\\packages\\",
-        "outputPath": "D:\\workspace\\ASP.NET MVC core\\soccerShose_db\\obj\\",
+        "projectPath": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\SoccerShoesShop.csproj",
+        "packagesPath": "C:\\Users\\sonpr\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sonpr\\OneDrive\\ドキュメント\\Do An\\soccerShose_db\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bedev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sonpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

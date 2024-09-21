@@ -31,9 +31,6 @@ public partial class ApplicationDbContext : DbContext
 
     public virtual DbSet<TblOrder> TblOrders { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-RT2POSH\\MSSQL;Database=soccerShose_db;Trusted_connection=True;TrustServerCertificate=True");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>

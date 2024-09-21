@@ -200,10 +200,26 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a asp-controller="Category" asp-acion="Index" class="nav-link">
+                            <a href="@Url.Action("Index", "Category")" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
                                     Categories
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Index", "Product")" class="nav-link">
+                                <i class="nav-icon fas fa-copy"></i>
+                                <p>
+                                    Products
+                                </p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="@Url.Action("Index", "Order")" class="nav-link">
+                                <i class="nav-icon fas fa-copy"></i>
+                                <p>
+                                    Orders
                                 </p>
                             </a>
                         </li>
