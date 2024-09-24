@@ -8,5 +8,6 @@ namespace SoccerShoesShop.Services
         Task DeleteCartAsync(int id, int userId);
         Task<IEnumerable<Cart>> GetCartByUsernameAsync(string username);
         Task AddOrUpdateCartAsync(int userId, int productId, int quantity);
+        Task DeleteCartByCartIdAsync(int cartId);
     }
 }

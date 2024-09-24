@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using SoccerShoesShop.Areas.Admin.Models;
+using SoccerShoesShop.Areas.Admin.Services;
 using SoccerShoesShop.Common;
 using SoccerShoesShop.Models;
 using SoccerShoesShop.Services;
@@ -10,11 +12,17 @@ namespace SoccerShoesShop.Controllers
     {
         private readonly IOrderService _orderService;
         private readonly GetCurrentUser _getCurrentUser;
+        private readonly ICartService _cartService;
+        private readonly IOrderDetailService _orderDetailService;
+        private readonly IProductService _productService;
 
-        public OrderController(IOrderService orderService, GetCurrentUser getCurrentUser)
+        public OrderController(IOrderService orderService, GetCurrentUser getCurrentUser, ICartService cartService, IOrderDetailService orderDetailService, IProductService productService)
         {
             _orderService = orderService;
             _getCurrentUser = getCurrentUser;
+            _cartService = cartService;
+            _orderDetailService = orderDetailService;
+            _productService = productService;
         }
 
         [HttpGet]
@@ -39,8 +47,16 @@ namespace SoccerShoesShop.Controllers
         [HttpPost]
         public async Task<IActionResult> Checkout(TblOrder order)
         {
-            var userId = await _getCurrentUser.GetUserId();
-            await _orderService.AddOrderAsync(order, userId);
+            var orderId = await _orderService.AddOrderAsync(order);
+            var username = await _getCurrentUser.GetUsername();
+            var carts = await _cartService.GetCartByUsernameAsync(username);
+            foreach (var cart in carts)
+            {
+                OrderDetail orderDetail = new OrderDetail();
+                await _orderDetailService.AddOrderDetailAsync(orderDetail, cart, orderId);
+                await _productService.UpdateQuantityAfterOrder(cart);
+                await _cartService.DeleteCartByCartIdAsync(cart.CartId);
+            }
             return RedirectToAction("Index", "Menu");
         }
     }

@@ -21,17 +21,31 @@ namespace SoccerShoesShop.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(Account account)
         {
-            var accountCheck = await _accountService.AuthenticateAsync(account.Username, account.Password);
-            if (accountCheck == null) throw new ArgumentNullException("Account is null (controller)");
-            var claims = new List<Claim>
+            try
             {
-                new Claim(ClaimTypes.Name, accountCheck.Username), // Luu username vao Claim
-                new Claim(ClaimTypes.Role, accountCheck.Role.Name), // Luu Role cua nguoi dung vao claim
-                new Claim(ClaimTypes.NameIdentifier, accountCheck.UserId.ToString())
-            };
-            var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth"); // Cac claim duoc gan vao ClaimIdentity dung de tao danh tinh nguoi dung cho session
-            await HttpContext.SignInAsync("CookieAuth", new ClaimsPrincipal(claimsIdentity)); // HttpContext.SignInAsync duoc goi de thuc hien Login, su dung cookie xac thuc 'CookieAuth'
-            return RedirectToAction("Index", "Home");
+                var CheckExistingAccount = await _accountService.AuthenticateAsync(account.Username, account.Password);
+                if (CheckExistingAccount is null)
+                {
+                    ViewBag.Error = "Password is invalid";
+                    return View();
+                }
+                if (!ModelState.IsValid) return View("Error");
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, CheckExistingAccount.Username),
+                    new Claim(ClaimTypes.Role, CheckExistingAccount.Role.Name),
+                    new Claim(ClaimTypes.NameIdentifier, CheckExistingAccount.UserId.ToString())
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth");
+                await HttpContext.SignInAsync("CookieAuth", new ClaimsPrincipal(claimsIdentity));
+                return account.Username.ToUpper().Equals("ADMIN") ? RedirectToAction("Index", "Product", new { area = "Admin" }) : RedirectToAction("Index", "Home");
+            }
+            catch (ArgumentNullException)
+            {
+                ViewBag.Error = "Username or password is invalid";
+                return View();
+            }
         }
 
         [HttpGet]
@@ -40,12 +54,17 @@ namespace SoccerShoesShop.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(Account account)
         {
-            if (ModelState.IsValid)
+            try
             {
+                if (!ModelState.IsValid) return View("Error");
                 await _accountService.AddAccountAsync(account);
                 return RedirectToAction("Login", "Account");
             }
-            return View(account);
+            catch (InvalidOperationException)
+            {
+                ViewBag.Error = "Username already exists!";
+                return View();
+            }
         }
 
         [HttpGet]

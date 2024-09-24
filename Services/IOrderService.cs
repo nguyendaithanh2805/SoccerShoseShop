@@ -1,4 +1,5 @@
-﻿using SoccerShoesShop.Models;
+﻿using SoccerShoesShop.Areas.Admin.Models;
+using SoccerShoesShop.Models;
 
 namespace SoccerShoesShop.Services
 {
@@ -6,7 +7,7 @@ namespace SoccerShoesShop.Services
     {
         Task<IEnumerable<TblOrder>> GetAllOrderAsync();
         Task DeleteOrderAsync(int id);
-        Task AddOrderAsync(TblOrder tblOrder, int userId);
+        Task<int> AddOrderAsync(TblOrder order);
         Task UpdateOrderAsync(TblOrder tblOrder);
         Task<TblOrder> GetOrderByIdAsync(int id);
     }

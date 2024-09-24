@@ -18,14 +18,15 @@ namespace SoccerShoesShop.Services
 
         public async Task AddAccountAsync(Account account)
         {
-            var roleId = account.Username.ToUpper().Equals("ADMIN") ? 1 : 2;
+            var existingTaiKhoan = await _accountRepository.findByNameAsync(account.Username);
+            if (existingTaiKhoan is not null) throw new InvalidOperationException("Username already exists");
             var hashedPassword = _passwordHasher.HashPassword(account, account.Password);
             var newAccount = new Account
             {
                 UserId = IdGenerator.GeneratedIdBasedOnTime(),
                 Username = account.Username,
                 Password = hashedPassword,
-                RoleId = roleId
+                RoleId = (account.Username.ToUpper().Equals("ADMIN") ? 1 : 2)
             };
             await _accountRepository.AddAsync(newAccount);
         }

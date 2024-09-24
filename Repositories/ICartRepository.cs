@@ -11,5 +11,6 @@ namespace SoccerShoesShop.Repositories
         Task DeleteAsync(int id);
         Task<IEnumerable<Cart>> findByUsernameAsync(string username);
         Task<Cart> findCartByProductIdAndUserIdAsync(int productId, int userId);
+        Task DeleteCartByCartIdAsync(int cartId);
     }
 }

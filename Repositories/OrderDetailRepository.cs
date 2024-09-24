@@ -16,6 +16,7 @@ namespace SoccerShoesShop.Repositories
         public async Task AddAsync(OrderDetail orderDetail)
         {
             await _context.OrderDetails.AddAsync(orderDetail);
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)

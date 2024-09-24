@@ -47,6 +47,12 @@
                             Cancel
                         </a>
                     </div>
+                    <div class="col-12">
+                        @if (!string.IsNullOrEmpty(ViewBag.Error))
+                        {
+                            <p class="text-danger">@ViewBag.Error</p>
+                        }
+                    </div>
                     <!-- /.col -->
                 </div>
             </form>

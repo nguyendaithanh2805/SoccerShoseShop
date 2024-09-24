@@ -1,6 +1,7 @@
 ﻿using SoccerShoesShop.Areas.Admin.Models;
 using SoccerShoesShop.Common;
 using SoccerShoesShop.Areas.Admin.Repositories;
+using SoccerShoesShop.Models;
 
 namespace SoccerShoesShop.Areas.Admin.Services
 {
@@ -60,6 +61,13 @@ namespace SoccerShoesShop.Areas.Admin.Services
             productExisting.Quantity = product.Quantity;
             productExisting.SellingPrice = product.SellingPrice;
             await _productRepository.UpdateAsync(productExisting);
+        }
+
+        public async Task UpdateQuantityAfterOrder(Cart cart)
+        {
+            var existingProduct = await _productRepository.findByIdAsync(cart.ProductId);
+            existingProduct.Quantity -= cart.Quantity;
+            await _productRepository.UpdateAsync(existingProduct);
         }
     }
 }

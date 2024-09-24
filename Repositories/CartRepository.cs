@@ -28,6 +28,14 @@ namespace SoccerShoesShop.Repositories
             await _context.SaveChangesAsync();
         }
 
+        public async Task DeleteCartByCartIdAsync(int cartId)
+        {
+            var cart = await _context.Carts.FindAsync(cartId);
+            if (cart is null) throw new NullReferenceException("Cart is null");
+            _context.Carts.Remove(cart);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Cart>> findAllAsync()
         {
             return await _context.Carts.ToListAsync();

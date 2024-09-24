@@ -1,4 +1,5 @@
 ﻿using SoccerShoesShop.Areas.Admin.Models;
+using SoccerShoesShop.Models;
 
 namespace SoccerShoesShop.Areas.Admin.Services
 {
@@ -9,5 +10,6 @@ namespace SoccerShoesShop.Areas.Admin.Services
         Task AddProductAsync(Product product);
         Task DeleteProductAsync(int id);
         Task UpdateProductAsync(Product product);
+        Task UpdateQuantityAfterOrder(Cart cart);
     }
 }

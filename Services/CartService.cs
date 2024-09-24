@@ -49,6 +49,11 @@ namespace SoccerShoesShop.Services
             await _cartRepository.DeleteAsync(id);
         }
 
+        public async Task DeleteCartByCartIdAsync(int cartId)
+        {
+            await _cartRepository.DeleteCartByCartIdAsync(cartId);
+        }
+
         public async Task<IEnumerable<Cart>> GetAllCartAsync()
         {
             return await _cartRepository.findAllAsync();
