@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Shoes Website Tutorial</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href=@Url.Content("~/css/style.css")>
+</head>
+<body>
+    @await Html.PartialAsync("Partial/Header")
+
+    @RenderBody()
+
+    @await Html.PartialAsync("Partial/Footer")
+
+    <!-- swiper js cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src=@Url.Content("~/js/script.js")></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<SoccerShoesShop.Areas.Admin.Models.Product>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<style>
+    .image{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .table{
+        max-width: 100%;
+        max-height: 100%;
+    }
+</style>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Category</th>
+            <th scope="col">Description</th>
+            <th scope="col">Discount</th>
+            <th scope="col">Image</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Selling Price</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductId</td>
+                <td>@product.Name</td>
+                <td>@product.Category.Name</td>
+                <td>@product.Description</td>
+                <td>@product.Discount</td>
+                <td>
+                    <img class="image" src="@Url.Content($"~{product.Image}")" />
+                </td>
+                <td>@product.Quantity</td>
+                <td>@product.SellingPrice</td>
+                <td>
+                    <a class="btn btn-primary" asp-area="Admin" asp-controller="Product" asp-action="Edit" asp-route-id="@product.ProductId">Update</a>
+                    <a class="btn btn-danger" asp-area="Admin" asp-controller="Product" asp-action="Delete" asp-route-id="@product.ProductId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">
+                <a class="btn btn-success" asp-area="Admin" asp-controller="Product" asp-action="Create">Add a new Product</a>
+            </td>
+        </tr>
+    </tfoot>
+</table>

@@ -1,0 +1,74 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="home" id="home">
+
+    <div class="slides-container">
+
+        <div class="slide active">
+            <div class="content">
+                <h3>Soccer Shoes Shop</h3>
+                <p>Welcome to Soccer Shoes Shop, where we offer a wide variety of high-quality soccer shoes designed for performance, comfort, and style for players of all levels.</p>
+                <a asp-controller="Menu" asp-action="Index">
+                    <button class="btn">
+                        <span>Shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="image">
+                <img src=@Url.Content("~/images/header-2.jpg") alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <span>new winter</span>
+                <h3>Soccer Shoes Shop</h3>
+                <p>Welcome to Soccer Shoes Shop, where we offer a wide variety of high-quality soccer shoes designed for performance, comfort, and style for players of all levels.</p>
+                <a asp-controller="Menu" asp-action="Index">
+                    <button class="btn">
+                        <span>Shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="image">
+                <img src=@Url.Content("~/images/header-1.jpg") alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+    <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+</section>
+
+<section class="banner-container">
+
+    <div class="banner">
+        <img src=@Url.Content("~/images/banner1.jpg") alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>upto 40% off</h3>
+            <a asp-controller="Menu" asp-action="Index" class="btn">
+                <span>Shop now</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src=@Url.Content("~/images/banner2.jpg") alt="">
+        <div class="content">
+            <span>limited offer</span>
+            <h3>upto 40% off</h3>
+            <a asp-controller="Menu" asp-action="Index" class="btn">
+                    <span>Shop now</span>
+                        <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+</section>
